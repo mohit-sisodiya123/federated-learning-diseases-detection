@@ -1,0 +1,19 @@
+Phase 2 Comparison: Normal FL vs FL with Malicious Client
+============================================================
+
+Malicious Client IDs: [3]
+Attack Scale: 5.0
+
+Normal FL:
+  Accuracy: 0.6948
+  Precision: 0.6061
+  Recall: 0.3704
+  F1-score: 0.4598
+  Loss: 0.5655
+
+FL with Malicious Client:
+  Accuracy: 0.3117
+  Precision: 0.2451
+  Recall: 0.4630
+  F1-score: 0.3205
+  Loss: 0.7535

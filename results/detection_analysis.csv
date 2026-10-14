@@ -1,0 +1,8 @@
+Metric,Value
+Total malicious clients,1
+Detected malicious clients,0
+Missed malicious clients,1
+Legitimate clients,4
+Legitimate flagged (false positives),4
+Detection rate,0.0000
+False-positive rate,1.0000

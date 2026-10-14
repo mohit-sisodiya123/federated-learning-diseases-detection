@@ -1,0 +1,4 @@
+Experiment,Accuracy,Precision,Recall,F1_Score,Loss,Malicious_Clients,Detected_Malicious,Missed_Malicious,False_Positives,Detection_Rate,FPR
+Normal FL,0.6948,0.6061,0.3704,0.4598,0.5655,0,0,0,0,0.0000,0.0000
+FL + Malicious,0.3117,0.2451,0.4630,0.3205,0.7535,1,0,1,0,0.0000,0.0000
+FL + Detection,0.2922,0.1978,0.3333,0.2483,7.4846,1,0,1,4,0.0000,1.0000

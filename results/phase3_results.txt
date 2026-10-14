@@ -1,0 +1,37 @@
+PHASE 3 RESULTS
+============================================================
+
+Ground-truth malicious clients: [3]
+Attack scale: 5.0
+Detection sensitivity: 2.5
+
+Normal FL:
+  Accuracy : 0.6948
+  Precision: 0.6061
+  Recall   : 0.3704
+  F1-score : 0.4598
+  Loss     : 0.5655
+
+FL + Malicious Clients (no detection):
+  Accuracy : 0.3117
+  Precision: 0.2451
+  Recall   : 0.4630
+  F1-score : 0.3205
+  Loss     : 0.7535
+
+FL + Malicious Clients + Detection:
+  Accuracy : 0.6883
+  Precision: 0.5833
+  Recall   : 0.3889
+  F1-score : 0.4667
+  Loss     : 0.5675
+
+Detection performance (last round):
+  Detected suspicious clients: [3]
+  True Positives : 1
+  False Positives: 0
+  False Negatives: 0
+  True Negatives : 4
+  Detection Precision: 1.0000
+  Detection Recall   : 1.0000
+  Detection F1       : 1.0000
